@@ -587,8 +587,8 @@
 	$T$.\index[definitions]{Linear transformation!rank}\index{Linear transformation!rank}
 
 	For an $m\times n$ matrix $M$, the
-	\emph{rank} of $M$, denoted $\Rank(M)$, is the number of pivots in
-	$\rref(M)$.\index[definitions]{Matrix!nullity}\index{Matrix!nullity}
+	\emph{rank} of $M$, denoted $\Rank(M)$, is the dimension of the 
+	column space of $M$.\index[definitions]{Matrix!nullity}\index{Matrix!nullity}
 \end{SaveDefinition}
 
 \begin{SaveDefinition}[key=Nullity, title={Nullity}]
@@ -655,10 +655,10 @@
 
 \begin{SaveDefinition}[key=OrientationPreservingLinearTransformation, title={Orientation Preserving Linear Transformation}]
 	Let $\mathcal T:\R^n\to\R^n$ be a linear transformation. We say $\mathcal T$
-	is \emph{orientation preserving}\index[definitions]{Linear transformation!orientation preserving}\index{Linear transformation!orientation preserving} if the ordered basis $\Set{\mathcal T(\vec e_1),\ldots, \mathcal T(\vec e)}$
+	is \emph{orientation preserving}\index[definitions]{Linear transformation!orientation preserving}\index{Linear transformation!orientation preserving} if the ordered basis $\Set{\mathcal T(\vec e_1),\ldots, \mathcal T(\vec e_n)}$
 	is positively oriented  and we say $\mathcal T$
-	is \emph{orientation reversing}\index[definitions]{Linear transformation!orientation reversing}\index{Linear transformation!orientation reversing} if the ordered basis $\Set{\mathcal T(\vec e_1),\ldots, \mathcal T(\vec e)}$
-	is negatively oriented. If $\Set{\mathcal T(\vec e_1),\ldots, \mathcal T(\vec e)}$
+	is \emph{orientation reversing}\index[definitions]{Linear transformation!orientation reversing}\index{Linear transformation!orientation reversing} if the ordered basis $\Set{\mathcal T(\vec e_1),\ldots, \mathcal T(\vec e_n)}$
+	is negatively oriented. If $\Set{\mathcal T(\vec e_1),\ldots, \mathcal T(\vec e_n)}$
 	is not a basis for $\R^n$, then $\mathcal T$ is neither orientation preserving nor orientation reversing.
 \end{SaveDefinition}
 
